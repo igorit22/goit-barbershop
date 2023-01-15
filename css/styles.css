@@ -35,7 +35,6 @@ body {
   overflow: hidden;
 }
 
-
 .suptitle {
   font-weight: 600;
   font-size: 11px;
@@ -270,7 +269,6 @@ body {
   color: var(--main-title-color);
 }
 
-
 /* ------------Contacts----------- */
 
 .contacts {
@@ -285,13 +283,12 @@ body {
 .contacts-list {
 }
 .contacts-item {
-
 }
 .contacts-link {
-font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-color: #9DA4BD;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
 }
 
 .contacts-link.bold {
@@ -299,26 +296,24 @@ color: #9DA4BD;
 }
 .contacts-subtitle-text {
   color: var(--main-title-color);
-
 }
 .contacts-text {
   font-size: 18px;
-line-height: 1.67;
-letter-spacing: 0.02em;
-color: #9DA4BD;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
 }
-
 
 /* -----------------Footer-------------------- */
 
 .footer {
 }
 .footer-copyright {
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.2em;
-color: #9DA4BD;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #9da4bd;
 }
 .footer-list {
 }
