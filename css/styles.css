@@ -13,6 +13,22 @@ body {
   font-family: "Open Sans", "Raleway", sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
 /* --------Site utilities and general for the site-------- */
 
 .list {
@@ -20,6 +36,17 @@ body {
 }
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  outline: 1px solid tomato;
 }
 
 .visually-hidden {
@@ -56,18 +83,31 @@ body {
   line-height: var(--main-line-height);
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  cursor: pointer;
 }
+
 /* ---------------------Header------------------------- */
 
 .header {
-  background-color: rgb(184, 214, 253);
+  background-color: #9da4bd;
+  padding-top: 32px;
+  padding-bottom: 32px;
+/* height: 680px; */
+/* background-image: url(../img/slider-img-3.jpg); */
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
 }
 .header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
 }
 .header-logo {
+  margin-right: 131px;
 }
 .header-list {
+  display: flex;
+  gap: 30px;
 }
 .header-item {
 }
@@ -95,7 +135,10 @@ body {
 .header-btn {
   color: var(--main-btn-color);
 }
-
+.header-flex {
+  display: flex;
+  align-items: center;
+}
 /* <!-- --------------Hero---------------- --> */
 
 .hero {
@@ -138,24 +181,30 @@ body {
 /* -------------------About--------------------- */
 
 .about {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .about-list {
 }
 .about-item {
 }
 .about-suptitle-text {
+  margin-bottom: 20px;
   color: #303030;
 }
 .about-title {
+  margin-bottom: 20px;
   color: #303030;
 }
 .about-main-text {
+  margin-bottom: 20px;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #555555;
 }
 .about-subtitle-text {
+  margin-bottom: 42px;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
@@ -168,16 +217,27 @@ body {
 /* -------------------Servises--------------------- */
 
 .servises {
+  background-color: #555555;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .servises-subtitle-text {
+  margin-bottom: 20px;
   color: rgba(157, 164, 189, 0.6);
 }
 .servises-title {
+  margin-bottom: 44px;
   color: var(--main-title-color);
 }
 .servises-list {
+  border: 1px solid #ffffff;
+  padding: 30px 20px;
 }
 .servises-item {
+}
+
+.servises-item:not(:last-child) {
+  margin-bottom: 20px;
 }
 .servises-list-text {
   font-size: 18px;
@@ -192,10 +252,18 @@ body {
 /* -------------------Benefits------------------ */
 
 .benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .benefits-list {
 }
 .benefits-item {
+  width: 170px;
+  height: 133px;
+  border: 1px solid violet;
+  padding: 20px 24px;
+  text-align: center;
+
 }
 .benefits-item-numbers {
   font-weight: 700;
@@ -204,15 +272,23 @@ body {
   text-align: center;
   letter-spacing: 0.05em;
   color: #303030;
+  display: block;
+  margin-bottom: 6px;
 }
 
 .benefits-item-text {
+  font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+text-align: center;
   color: var(--second-title-color);
 }
 .benefits-subtitle-text {
+  margin-bottom: 20px;
   color: var(--second-title-color);
 }
 .benefits-title {
+  margin-bottom: 20px;
   color: var(--second-title-color);
 }
 .benefits-main-text {
@@ -224,13 +300,22 @@ body {
 
 /* -------------------Barbers------------------ */
 
+.barbers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .barbers-subtitle-text {
+  margin-bottom: 20px;
   color: var(--second-title-color);
 }
 .barbers-title {
+  margin-bottom: 44px;
   color: var(--second-title-color);
 }
 .barbers-list {
+  display: flex;
+  gap: 30px;
 }
 .barbers-item {
 }
@@ -241,6 +326,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+  margin-bottom: 8px;
 }
 .barbers-item-text {
   font-size: 14px;
@@ -250,9 +336,21 @@ body {
   color: var(--accent-color);
 }
 
+.barbers-content {
+  padding-top: 30px;
+}
+
 /* -------------Gallery------------- */
 
+
+.gallery {
+  padding-top: 120px;
+padding-bottom: 120px;
+}
+
+
 .gallery-subtitle-text {
+  padding-bottom: 44px;
   color: var(--second-title-color);
 }
 .gallery-list {
@@ -261,6 +359,20 @@ body {
 }
 
 /* ------------Online-booking----------- */
+
+.footer-container {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  outline: 1px solid tomato;
+}
 
 .online {
   background-color: #9da4bd;
@@ -307,6 +419,13 @@ body {
 /* -----------------Footer-------------------- */
 
 .footer {
+  display: block;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.footer-flex {
+  display: flex;
 }
 .footer-copyright {
   font-weight: 600;
@@ -316,8 +435,10 @@ body {
   color: #9da4bd;
 }
 .footer-list {
+  display: flex;
 }
 .footer-item {
+  /* display: flex; */
 }
 .footer-link {
   font-weight: 600;
