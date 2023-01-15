@@ -1,0 +1,239 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #303030;
+  --main-btn-color: #ffffff;
+  --second-btn-color: #303030;
+  --main-link-color: #ffffff;
+  --second-link-color: #303030;
+  --accent-color: #ff6c00;
+  --main-line-height: 1.33;
+}
+
+body {
+  font-family: "Open Sans", "Raleway", sans-serif;
+}
+
+/* ------------------Site utilities----------------- */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.suptitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+/* ---------------------Header------------------------- */
+
+.header {
+  background-color: rgb(184, 214, 253);
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: var(--main-line-height);
+  letter-spacing: 0.1em;
+  color: var(--main-link-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: var(--main-line-height);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: var(--main-line-height);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--main-btn-color);
+}
+
+/* <!-- --------------Hero---------------- --> */
+
+.hero {
+  background-color: thistle;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-link-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-subtitle-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--main-title-color);
+}
+.hero-main-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* -------------------About--------------------- */
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-suptitle-text {
+  color: #303030;
+}
+.about-title {
+  color: #303030;
+}
+.about-main-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-subtitle-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+.about-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: var(--main-line-height);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--second-btn-color);
+  cursor: pointer;
+}
+
+/* -------------------Servises--------------------- */
+
+.servises {
+
+}
+.servises-subtitle-text {
+  color: rgba(157, 164, 189, 0.6);
+}
+.servises-title {
+  color: var(--main-title-color);
+}
+.servises-list {
+}
+.servises-item {
+}
+.servises-list-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+.servises-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: var(--main-line-height);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  cursor: pointer;
+}
+
+/* -------------------Benefits------------------ */
+
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+
+}
+.benefits-item-numbers {
+font-weight: 700;
+font-size: 42px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.05em;
+color: #303030;
+}
+
+.benefits-item-text {
+    color: #303030;
+}
+.benefits-subtitle-text {
+color: #303030;
+}
+.benefits-title {
+color: #303030;
+}
+.benefits-main-text {
+font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: #555555;
+}
+
+/* -------------------Barbers------------------ */
+
+.barbers-subtitle-text {
+}
+.barbers-title {
+}
+.barbers-list {
+}
+.barbers-item {
+}
+.barbers-cart-title {
+}
+.barbers-cart-text {
+}
+
